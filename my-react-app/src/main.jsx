@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import {RouterProvider, createBrowserRouter} from "react-router-dom";
-import Dashboard from './routes/Dashboard.jsx';
-import Other from './routes/Other.jsx';
-import ProductPage from './routes/ProductPage.jsx';
-import Homepage from './routes/Homepage.jsx';
+import Home from './eshop/pages/home/home.jsx'
+import Cart from './eshop/pages/cart/cart.jsx'
+import Shop from './eshop/pages/shop/Shop.jsx'
+
 
 const router = createBrowserRouter([
   {path: '/', element: <App />},
-  {path: '/dashboard', element: <Dashboard />},
-  {path: '/other', element: <Other />},
-  {path: '/products', element: <ProductPage />},
-  {path: '/home', element: <Homepage />},
+  {path: '/home', element: <Home />},
+  {path: '/cart', element: <Cart />},
+  {path: '/shop', element: <Shop />},
+
 ])
 
 

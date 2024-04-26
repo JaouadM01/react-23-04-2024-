@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import pepe from "../images/pepe.jpg";
+import {ShoppingCart} from 'phosphor-react';
 
 function Header() {
   return (
@@ -10,6 +11,7 @@ function Header() {
       <ul className="navbar-nav">
         <li className="navbar-item"><Link to="/" className="nav-link">Home</Link></li>
         <li className="navbar-item"><Link to="/products" className="nav-link">Products</Link></li>
+        <li className='navbar-item'><Link to='/cart'><ShoppingCart size={32} /></Link></li>
         <li className="navbar-item"><Link to="/" className="nav-link">Reviews</Link></li>
         <li className="navbar-item"><Link to="/" className="nav-link">Contact Us</Link></li>
       </ul>
