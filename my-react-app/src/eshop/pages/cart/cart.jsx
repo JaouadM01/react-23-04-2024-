@@ -1,7 +1,13 @@
-import React from "react";
+import React, {useContext} from "react";
+import { ShopContext } from "../../context/shop-context";
 
 export default function Cart(){
+    const {resetCart} = useContext(ShopContext)
     return(
-        <h1>cart</h1>
+        <div>
+            <h1>cart</h1>
+            <button onClick={resetCart}>reset cart</button>
+        </div>
+        
     )
 }

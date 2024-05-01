@@ -4,7 +4,7 @@ function Home() {
 
   return (
     <>
-      <Header />
+      <h3>Sup Sup</h3>
     </>
   )
 }
