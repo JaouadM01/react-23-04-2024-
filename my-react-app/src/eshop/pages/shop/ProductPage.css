@@ -1,0 +1,42 @@
+/* Container for the entire product page */
+.product-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Add gap between the rotating image and product info */
+  padding: 20px; /* Add padding to the product page */
+}
+
+/* Container for the rotating image */
+.rotating-image-container {
+  width: 50%; /* Set width for the rotating image container */
+}
+
+/* Styling for the product info */
+.product-page-info {
+  width: 50%; /* Set width for the product info container */
+  padding: 20px; /* Add padding to the product info container */
+  background-color: #f9f9f9; /* Light background color */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+}
+
+.product-page-info h2 {
+  font-size: 1.8rem; /* Larger font size for product name */
+  margin-bottom: 15px; /* Increased bottom margin for product name */
+  color: #333; /* Dark text color */
+}
+
+.product-page-info p {
+  margin-bottom: 12px; /* Increased bottom margin for paragraphs */
+  line-height: 1.6; /* Improved line height for readability */
+  color: #666; /* Slightly darker text color */
+}
+
+.product-page-info p:last-child {
+  margin-bottom: 0; /* Remove bottom margin from last paragraph */
+}
+
+/* Styling for the add to cart button */
+

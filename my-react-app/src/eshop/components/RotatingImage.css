@@ -1,0 +1,25 @@
+.rotating-image-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Define the perspective for 3D effect */
+
+  background-color: rgb(231, 231, 231);
+  margin: 5px;
+  width: 60%;
+  }
+  
+  .rotating-image {
+    width: 600px; /* Adjust width as needed */
+    height: 600px; /* Adjust height as needed */
+    animation: rotateImage 8s linear infinite; /* Define the animation */
+  }
+  
+  @keyframes rotateImage {
+    from {
+      transform: rotateY(0deg); /* Start the rotation from 0 degrees */
+    }
+    to {
+      transform: rotateY(360deg); /* Rotate the image 360 degrees */
+    }
+  }
+  

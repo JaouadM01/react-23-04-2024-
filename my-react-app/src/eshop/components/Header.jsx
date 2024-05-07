@@ -8,6 +8,7 @@ function Header() {
     <div className='navbar'>
         <h3 className='title'>Jaouad's Store</h3>
         <div className='links'>
+            <Link to='/reviews'>Reviews</Link>
             <Link to='/shop'>Shop</Link>
             <Link to='/cart'><ShoppingCart size={32}/></Link>
         </div>
